@@ -1,0 +1,795 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* font-family: 'Poppins', sans-serif;*/
+    border: border-box;
+}
+
+html{
+    background-color: #000;
+    color: white;
+    background-size: cover;
+}
+
+/** Background Image */
+.cover{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(./pic/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.103);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 23px;
+    position: relative;
+}
+
+/** Netflix Logo */
+.logo{
+    background-image: url(./pic/Logo.png);
+    background-size: cover;
+    height: 45px;
+    width: 148px;
+    position: relative;
+    
+}
+
+.nav-address{
+   
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content:space-between;
+}
+
+/** Language Choose */
+.choose{
+    height: 33px;
+    width: 130px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border-color: white;
+    border-width: -1px;
+    margin-left: 33rem;
+    margin-top: 26px;
+    position: relative;
+    cursor: pointer;
+}
+
+.choose:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+/* Sign In */
+.sign{
+    height: 33px;
+    width: 85px;
+    margin-left: 2rem;
+    margin-top: 26px;
+    color: #fff;
+    font-style: bold;
+    font-size: 13px;
+    background-color: #e50914;
+border-radius: 6px;
+border-color: transparent;
+position: relative;
+cursor: pointer;
+}
+
+.sign:hover{
+    background-color: #9d151c;
+}
+
+/** Heading 1 */
+.heading-1{
+    color: #fff;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    margin-top: 8rem;
+    margin-left: 170px;
+    position: relative;
+}
+
+/** Heading 2 **/
+.heading-2{
+    color: #fff;
+    font-family: sans-serif;
+    font-style: plain;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 410px;
+    position: relative;
+}
+
+/** Heading 3**/
+.heading-3{
+    color: #fff;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 260px;
+    position: relative;
+}
+
+/** email & started **/
+.email{
+    height: 56px;
+    width: 382px;
+    font-size: 20px;
+    text-align:center;
+    background-color: rgba(14, 14, 14, 0.201);
+    color: rgb(203, 203, 203);
+    border-radius: 6px;
+    border-color: white;
+    border-width: 0.02px;
+    margin-top: 35px;
+    margin-left: 290px;
+}
+
+.email:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+    cursor:text;
+}
+
+/** get started **/
+.started{
+    height: 56px;
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    border-color: transparent;
+    border-width: 0.02px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.started:hover{
+    background-color: #9d151c;
+}
+
+/* main center part*/
+.blank{
+    background-color: rgb(57, 55, 55);
+    background-size: cover;
+    height: 0.5rem;
+    width: 100vw;
+}
+
+.main-1{
+    background-color: #000;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+/*text*/
+.heading-4{
+    font-size: 58px;
+    color: #fff;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-style: bold;
+    margin-left: 60px;
+    margin-top: 130px; 
+}
+
+.heading-5{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 240px; 
+}
+
+.heading-6{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style:normal;
+    margin-left: 60px;
+    margin-top: 280px; 
+}
+
+.heading-7{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 320px; 
+}
+
+.image-1{
+    background-image: url(./pic/one.png);
+    width: 468px;
+    height: 351px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 45rem;
+    margin-top: 50px ;
+    background-size: cover;
+    z-index: 1;
+}
+
+.video-1{
+    position: absolute;    
+    margin-left: 48.9rem;
+    margin-top: 125px;
+    z-index: 0;
+}
+
+/* main center part*/
+.blank{
+    background-color: rgb(55, 57, 55);
+    background-size: cover;
+    height: 0.5rem;
+}
+
+.main-2{
+    background-color: #000;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+/*text*/
+.heading-8{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: bold;
+    margin-left: 60px;
+    margin-top: 130px; 
+}
+
+.heading-9{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: bold;
+    margin-left: 60px;
+    margin-top: 190px; 
+}
+
+.heading-10{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: bold;
+    font-style:normal;
+    margin-left: 60px;
+    margin-top: 250px; 
+    position: absolute;
+}
+
+.heading-11{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 360px; 
+}
+
+.heading-12{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 390px; 
+}
+
+.image-2{
+    background-image: url(./pic/two.jpg);
+    width: 468px;
+    height: 351px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 45rem;
+    margin-top: 50px ;
+    background-size: cover;
+}
+
+/* main center part*/
+.blank{
+    background-color: rgb(55, 57,55);
+    background-size: cover;
+    height: 0.5rem;
+}
+
+.main-3{
+    background-color: #000;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+/*text*/
+.heading-13{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: bold;
+    margin-left: 60px;
+    margin-top: 130px; 
+}
+
+.heading-14{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 240px; 
+}
+
+.heading-15{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style:normal;
+    margin-left: 60px;
+    margin-top: 280px; 
+}
+
+.image-3{
+    background-image: url(./pic/three.png);
+    width: 468px;
+    height: 351px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 45rem;
+    margin-top: 50px ;
+    background-size: cover;
+    z-index: 1;
+}
+
+.video-2{
+    position: absolute;    
+    margin-left: 40.2rem;
+    margin-top: 80px;
+    z-index: 0;
+}
+
+/* main center part*/
+.blank{
+    background-color: rgb(55, 57, 55);
+    background-size: cover;
+    height: 0.5rem;
+}
+
+.main-4{
+    background-color: #000;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+/*text*/
+.heading-16{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: bold;
+    margin-left: 60px;
+    margin-top: 130px; 
+}
+
+.heading-17{
+    font-size: 58px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 190px; 
+}
+
+.heading-18{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style:normal;
+    margin-left: 60px;
+    margin-top: 300px; 
+}
+
+.heading-19{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 340px; 
+}
+
+.heading-20{
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+   font-weight: lighter;
+    margin-left: 60px;
+    margin-top: 380px; 
+}
+
+.image-4{
+    background-image: url(./pic/four.png);
+    width: 468px;
+    height: 351px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 45rem;
+    margin-top: 50px ;
+    background-size: cover;
+}
+
+/** Second last footer**/
+
+.blank{
+    background-color: rgb(55, 57, 55);
+    background-size: cover;
+    height: 0.5rem;
+}
+
+.main-5{
+    background-color: #000;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*text*/
+.heading-21{
+    font-size: 52px;
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-style: bold;
+    margin-left: 280px;
+    margin-top: 50px; 
+}
+
+.info-1{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 140px;
+    margin-left: 180px;
+}
+
+.quest:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.info-2{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest-1{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 225px;
+    margin-left: 180px;
+}
+
+.quest-1:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.info-3{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest-2{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 310px;
+    margin-left: 180px;
+}
+
+.quest-2:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.info-4{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest-3{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 395px;
+    margin-left: 180px;
+}
+
+.quest-3:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.info-5{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest-4{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 480px;
+    margin-left: 180px;
+}
+
+.quest-4:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.info-6{
+    font-size: 25px;
+    color: #fff;
+}
+
+.quest-5{
+    width: 70%;
+    min-height: 74px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #303033;
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin-top: 565px;
+    margin-left: 180px;
+}
+
+.quest-5:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.heading-22{
+    font-size: 21px;
+    font-weight: 100;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 690px;
+    margin-left: 285px;
+    position: absolute;
+}
+
+/** email & started **/
+.email-1{
+    height: 56px;
+    width: 382px;
+    font-size: 20px;
+    text-align:center;
+    background-color: rgba(14, 14, 14, 0.201);
+    color: rgb(203, 203, 203);
+    border-radius: 6px;
+    border-color: white;
+    border-width: 0.02px;
+    margin-top: 735px;
+    margin-left: 290px;
+}
+
+.email-1:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+    cursor:text;
+}
+
+/** get started **/
+.started-1{
+    height: 56px;
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    border-color: transparent;
+    border-width: 0.02px;
+    margin-left: 9px;
+    margin-top: 735px;
+    cursor: pointer;
+}
+
+.started-1:hover{
+    background-color: #9d151c;
+}
+
+/**last footer**/
+
+.blank{
+    background-color: rgb(55, 57, 55);
+    background-size: cover;
+    height: 0.5rem;
+}
+
+.main-6{
+    background-color: #000;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading-23{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100px;
+    color: #d2d0d0;
+   /* position: absolute;*/
+    margin-left: 180px;
+    margin-top: 5rem;
+}
+
+/* footpanel-2*/
+
+.footpanel2{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 100px;
+    color: #d2d0d0;
+    display: flex;
+   /* position: absolute;*/
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+ul a{
+    display: block;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+/** Language Choose */
+.choose-1{
+    height: 33px;
+    width: 130px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border-color: white;
+    border-width: -1px;
+    margin-left: 180px;
+    margin-top: 2.5rem;
+   /* position: absolute;*/
+}
+
+.choose-1:hover{
+    background-color: rgba(84, 83, 83, 0.413);
+}
+
+.last{
+    font-size: 13px;
+    color: #d2d0d0;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+font-weight: 100;
+position: absolute;
+left: 185px;
+top: 18rem;
+}
